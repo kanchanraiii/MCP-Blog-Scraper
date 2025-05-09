@@ -25,7 +25,7 @@ headers = {
 
 
 # ---------------------------------------------
-# 1. User intent parser using OpenAI
+# 1. User input parser using OpenAI
 # ---------------------------------------------
 def parse_user_input(user_input):
     system_prompt = """You are an AI assistant that extracts structured search instructions from user queries.
